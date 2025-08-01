@@ -16,9 +16,9 @@ Project Structure
 
 ### Run the System:
 
-#### go run . # Main scheduler + worker
+####  go run cmd/worker/main.go | go run cmd/schedular/main.go  
 #### OR
-#### go run . -mode=worker # Worker only
+#### go run cmd/worker/main.go # Worker only
 
 Use the API:
 
